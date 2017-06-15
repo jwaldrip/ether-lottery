@@ -5,17 +5,17 @@ import "ds-test/test.sol";
 import "./EtherLottery.sol";
 
 contract EtherLotteryTest is DSTest {
-    EtherLottery lottery;
+	EtherLottery lottery;
 
-    function setUp() {
-        lottery = new EtherLottery();
-    }
+	function setUp() {
+		lottery = new EtherLottery();
+	}
 
-    function testFail_basic_sanity() {
-        assert(false);
-    }
+	function testFail_basic_sanity() {
+		assert(false);
+	}
 
-    function test_basic_sanity() {
-        assert(true);
-    }
+	function test_basic_sanity() {
+		assert(true);
+	}
 }
