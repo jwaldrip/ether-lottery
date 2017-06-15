@@ -1,6 +1,6 @@
 name            ether-lottery
-description     A newly-created dapp
-version         0.0.0
+description     An Ethereum Based Lottery System
+version         1.0.0
 
-author          jwaldrip
-license         Apache-2.0
+author          Jason Waldrip
+license         MIT
