@@ -11,11 +11,15 @@ contract EtherLotteryTest is DSTest {
 		lottery = new EtherLottery();
 	}
 
-	function testFail_basic_sanity() {
-		assert(false);
+	function testFirstTicket() logs_gas {
+		lottery.buyGenerated();
+		log_named_address("commissioner", lottery.commissioner());
+		fail();
 	}
 
-	function test_basic_sanity() {
-		assert(true);
+	function testSecondTicket() logs_gas {
+		lottery.buyGenerated();
+		log_named_address("commissioner", lottery.commissioner());
+		fail();
 	}
 }
